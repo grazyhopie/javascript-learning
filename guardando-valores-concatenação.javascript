@@ -17,8 +17,14 @@
     <h1>Hello, world!</h1>
     <p>help please i'm a star pliss i'm a staar!</p>
     <script>
+        //exemplo 01
         var nome = window.prompt('Qual é o seu nome?') //aparece uma caixa de texto perguntando o nome
-        window.alert('É um prazer te conhecer, ' + nome + '!') //concatenação 
+        window.alert('É um prazer te conhecer, ' + nome + '!') //concatenação
+        
+        //exemplo 02
+        var idade = window.prompt('Quantos anos vc tem?') 
+        window.alert('Então vc tem ' + idade + ' anos! ' )
+
     </script>
 </body>
 </html>
